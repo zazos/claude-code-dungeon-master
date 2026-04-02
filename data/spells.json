@@ -1,0 +1,42 @@
+{
+  "ashen_bolt": {
+    "name": "Ashen Bolt",
+    "tier": 1,
+    "base_damage": 5,
+    "mana_cost": 1,
+    "stamina_cost": 2,
+    "proc": null,
+    "proc_chance": 0,
+    "description": "A lance of compressed ash. Burns cold."
+  },
+  "hollow_flame": {
+    "name": "Hollow Flame",
+    "tier": 2,
+    "base_damage": 8,
+    "mana_cost": 2,
+    "stamina_cost": 3,
+    "proc": "bleeding",
+    "proc_chance": 0.2,
+    "description": "Fire that remembers being alive."
+  },
+  "soul_drain": {
+    "name": "Soul Drain",
+    "tier": 1,
+    "base_damage": 3,
+    "mana_cost": 1,
+    "stamina_cost": 2,
+    "proc": "hollowed",
+    "proc_chance": 0.3,
+    "description": "Takes a piece of what makes them whole."
+  },
+  "veil_of_cinder": {
+    "name": "Veil of Cinder",
+    "tier": 2,
+    "base_damage": 10,
+    "mana_cost": 3,
+    "stamina_cost": 3,
+    "proc": null,
+    "proc_chance": 0,
+    "description": "The air ignites. Everything within reach suffers."
+  }
+}

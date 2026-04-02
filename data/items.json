@@ -1,0 +1,125 @@
+{
+  "iron_sword": {
+    "name": "Iron Sword",
+    "type": "weapon",
+    "slot": "main_hand",
+    "attack_type": "melee",
+    "base_atk": 4,
+    "proc": "bleeding",
+    "proc_chance": 0.15,
+    "value": 60,
+    "description": "Standard blade. Keeps an edge longer than most."
+  },
+  "wooden_shield": {
+    "name": "Wooden Shield",
+    "type": "armor",
+    "slot": "off_hand",
+    "defense_bonus": 1,
+    "value": 30,
+    "description": "Splinters under pressure. Better than nothing."
+  },
+  "staff_of_ash": {
+    "name": "Staff of Ash",
+    "type": "weapon",
+    "slot": "main_hand",
+    "attack_type": "melee",
+    "base_atk": 2,
+    "proc": null,
+    "proc_chance": 0,
+    "value": 40,
+    "description": "Carved from a tree that burned but did not fall."
+  },
+  "broken_dagger": {
+    "name": "Broken Dagger",
+    "type": "weapon",
+    "slot": "main_hand",
+    "attack_type": "melee",
+    "base_atk": 2,
+    "proc": "bleeding",
+    "proc_chance": 0.1,
+    "value": 10,
+    "description": "Half a blade. Still sharp enough."
+  },
+  "shortbow": {
+    "name": "Shortbow",
+    "type": "weapon",
+    "slot": "main_hand",
+    "attack_type": "ranged",
+    "base_atk": 3,
+    "proc": null,
+    "proc_chance": 0,
+    "value": 50,
+    "description": "Light pull. Quiet release."
+  },
+  "ember_flask": {
+    "name": "Ember Flask",
+    "type": "consumable",
+    "effect": "rest",
+    "value": 0,
+    "description": "Warm light in a glass prison. Restores vitals at a bonfire."
+  },
+  "soul_fragment": {
+    "name": "Soul Fragment",
+    "type": "consumable",
+    "effect": "mana_restore",
+    "mana_restore": 2,
+    "value": 25,
+    "description": "A shard of someone else's purpose."
+  },
+  "iron_shard": {
+    "name": "Iron Shard",
+    "type": "material",
+    "value": 15,
+    "description": "Broken off something that once mattered."
+  },
+  "hollow_core": {
+    "name": "Hollow Core",
+    "type": "material",
+    "value": 45,
+    "description": "The last thing inside a hollow knight. It hums faintly."
+  },
+  "iron_key": {
+    "name": "Iron Key",
+    "type": "key",
+    "value": 0,
+    "description": "Heavy. Cold. It fits one lock in this world."
+  },
+  "rotten_fang": {
+    "name": "Rotten Fang",
+    "type": "material",
+    "value": 8,
+    "description": "Still wet. Smells of endings."
+  },
+  "sentinel_ash": {
+    "name": "Sentinel Ash",
+    "type": "material",
+    "value": 35,
+    "description": "Grey dust that was once conviction."
+  },
+  "blinded_crown": {
+    "name": "Blinded Crown",
+    "type": "trophy",
+    "value": 200,
+    "description": "It weighs more than it should. The eyeholes have been filled with wax."
+  },
+  "tattered_cloth": {
+    "name": "Tattered Cloth",
+    "type": "armor",
+    "slot": "body",
+    "defense_bonus": 0,
+    "value": 5,
+    "description": "Barely qualifies as clothing."
+  },
+  "cursed_blade": {
+    "name": "Cursed Blade",
+    "type": "weapon",
+    "slot": "main_hand",
+    "attack_type": "melee",
+    "base_atk": 5,
+    "proc": "bleeding",
+    "proc_chance": 0.25,
+    "curse": "lose_2_max_hp_on_rest",
+    "value": 120,
+    "description": "It cuts beautifully. It also cuts you."
+  }
+}

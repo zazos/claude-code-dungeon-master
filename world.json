@@ -1,0 +1,65 @@
+{
+  "rooms": {
+    "sunken_gate": {
+      "name": "The Sunken Gate",
+      "description_seed": "A collapsed archway. Ash drifts through cracks in the stone.",
+      "connections": ["corridor_of_order", "hollow_pit"],
+      "locked": false,
+      "lock_requires": null,
+      "contains": { "enemy": null, "item": "ember_flask", "npc": null },
+      "bonfire": true,
+      "visited": true
+    },
+    "corridor_of_order": {
+      "name": "Corridor of the Ashen Order",
+      "description_seed": "Long. Dark. The portraits have had their faces scratched out.",
+      "connections": ["sunken_gate", "forgotten_chapel"],
+      "locked": false,
+      "lock_requires": null,
+      "contains": { "enemy": "hollow_knight", "item": null, "npc": null },
+      "bonfire": false,
+      "visited": true
+    },
+    "hollow_pit": {
+      "name": "The Hollow Pit",
+      "description_seed": "A drop into darkness. Something has been eating down here.",
+      "connections": ["sunken_gate"],
+      "locked": false,
+      "lock_requires": null,
+      "contains": { "enemy": "rotting_hound", "item": "loot_cache", "npc": null },
+      "bonfire": false,
+      "visited": false
+    },
+    "forgotten_chapel": {
+      "name": "The Forgotten Chapel",
+      "description_seed": "Pews overturned. A single candle still burns. Someone tends it.",
+      "connections": ["corridor_of_order", "vestibule_of_ash"],
+      "locked": false,
+      "lock_requires": null,
+      "contains": { "enemy": null, "item": null, "npc": "blind_merchant" },
+      "bonfire": false,
+      "visited": false
+    },
+    "vestibule_of_ash": {
+      "name": "Vestibule of Ash",
+      "description_seed": "Grey snow falls upward here. A sentinel stands motionless at the far door.",
+      "connections": ["forgotten_chapel", "blinded_sanctum"],
+      "locked": false,
+      "lock_requires": null,
+      "contains": { "enemy": "ashen_sentinel", "item": "iron_key", "npc": null },
+      "bonfire": false,
+      "visited": false
+    },
+    "blinded_sanctum": {
+      "name": "The Blinded Sanctum",
+      "description_seed": "The air is wrong here. Whatever was worshipped here does not want to be remembered.",
+      "connections": ["vestibule_of_ash"],
+      "locked": true,
+      "lock_requires": "iron_key",
+      "contains": { "enemy": "sanctum_boss", "item": null, "npc": null },
+      "bonfire": false,
+      "visited": false
+    }
+  },
+  "start": "sunken_gate"
+}

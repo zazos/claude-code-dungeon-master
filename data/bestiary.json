@@ -1,0 +1,160 @@
+{
+  "rotting_hound": {
+    "name": "Rotting Hound",
+    "hp": 12,
+    "str": 10,
+    "dex": 12,
+    "spr": 4,
+    "default_position": "FRONT",
+    "weakness": null,
+    "moves": [
+      {
+        "name": "Gnaw",
+        "type": "melee",
+        "base_damage": 3,
+        "proc": "rotting",
+        "proc_chance": 0.25
+      },
+      {
+        "name": "Lunge",
+        "type": "melee",
+        "base_damage": 5,
+        "proc": null,
+        "proc_chance": 0
+      }
+    ],
+    "loot": {
+      "gold": "1d6x5",
+      "items": [
+        {"id": "rotten_fang", "chance": 0.3}
+      ]
+    },
+    "lore": "It was a dog once. Now it is appetite without loyalty."
+  },
+  "hollow_knight": {
+    "name": "Hollow Knight",
+    "hp": 20,
+    "str": 12,
+    "dex": 8,
+    "spr": 4,
+    "default_position": "FRONT",
+    "weakness": "spr",
+    "moves": [
+      {
+        "name": "Shield Bash",
+        "type": "melee",
+        "base_damage": 4,
+        "proc": "staggered",
+        "proc_chance": 0.3
+      },
+      {
+        "name": "Overhead Cleave",
+        "type": "melee",
+        "base_damage": 7,
+        "proc": null,
+        "proc_chance": 0
+      },
+      {
+        "name": "Retreat",
+        "type": "melee",
+        "base_damage": 0,
+        "proc": null,
+        "proc_chance": 0
+      }
+    ],
+    "loot": {
+      "gold": "1d6x10",
+      "items": [
+        {"id": "iron_shard", "chance": 0.4},
+        {"id": "hollow_core", "chance": 0.15}
+      ]
+    },
+    "lore": "Once a knight of the Ashen Order. Now just hunger in armour."
+  },
+  "ashen_sentinel": {
+    "name": "Ashen Sentinel",
+    "hp": 28,
+    "str": 14,
+    "dex": 10,
+    "spr": 8,
+    "default_position": "FRONT",
+    "weakness": null,
+    "moves": [
+      {
+        "name": "Ashen Sweep",
+        "type": "melee",
+        "base_damage": 6,
+        "proc": "bleeding",
+        "proc_chance": 0.35
+      },
+      {
+        "name": "Hollow Gaze",
+        "type": "spell",
+        "base_damage": 4,
+        "proc": "hollowed",
+        "proc_chance": 0.4
+      },
+      {
+        "name": "Guard Stance",
+        "type": "melee",
+        "base_damage": 2,
+        "proc": null,
+        "proc_chance": 0
+      }
+    ],
+    "loot": {
+      "gold": "2d6x10",
+      "items": [
+        {"id": "iron_key", "chance": 1.0},
+        {"id": "sentinel_ash", "chance": 0.25}
+      ]
+    },
+    "lore": "It guards a door it no longer remembers the purpose of."
+  },
+  "sanctum_boss": {
+    "name": "The Blinded One",
+    "hp": 45,
+    "str": 16,
+    "dex": 12,
+    "spr": 14,
+    "default_position": "FRONT",
+    "weakness": null,
+    "moves": [
+      {
+        "name": "Blind Fury",
+        "type": "melee",
+        "base_damage": 8,
+        "proc": "staggered",
+        "proc_chance": 0.4
+      },
+      {
+        "name": "Hollow Scream",
+        "type": "spell",
+        "base_damage": 6,
+        "proc": "hollowed",
+        "proc_chance": 0.5
+      },
+      {
+        "name": "Doom Gaze",
+        "type": "spell",
+        "base_damage": 3,
+        "proc": "doomed",
+        "proc_chance": 0.6
+      },
+      {
+        "name": "Crushing Advance",
+        "type": "melee",
+        "base_damage": 10,
+        "proc": "bleeding",
+        "proc_chance": 0.3
+      }
+    ],
+    "loot": {
+      "gold": "3d6x20",
+      "items": [
+        {"id": "blinded_crown", "chance": 1.0}
+      ]
+    },
+    "lore": "It tore out its own eyes so it would never have to see what it had become."
+  }
+}
